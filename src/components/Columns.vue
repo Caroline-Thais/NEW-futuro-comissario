@@ -1,4 +1,6 @@
 <template>
+    <h1>Aqui você encontra Vagas na Aviação e Simulados ANAC.</h1>
+
 <div class="wrapper">
     <div class="one">
         <a><img src="../assets/images/estudar.jpeg">
@@ -16,12 +18,14 @@
     
 </template>
 
+
+
 <style scoped>
     .wrapper{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        
+        margin: 5%;
     }
 
     img{
@@ -39,8 +43,12 @@
         margin-top: 5%;
     }
 
-    *{
-        height: 100vh;
-    }
+    
+
+    h1{
+        text-align: center;
+        font-size: x-large;
+        margin-top: 2%;
+        }
 
 </style>

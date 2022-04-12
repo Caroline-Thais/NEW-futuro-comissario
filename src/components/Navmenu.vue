@@ -4,7 +4,7 @@
     <div class="navbar-brand">
         
         <a>
-            <img src="../assets/logo.png">
+            <img src="../assets/logo2.png">
         </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
