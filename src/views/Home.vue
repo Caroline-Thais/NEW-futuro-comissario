@@ -1,15 +1,16 @@
 <template>
   <div class="home">
+    <Columns/>
   </div>
 </template>
 
 <script>
-//import HelloWorld from '@/components/HelloWorld.vue'
+import Columns from '../components/Columns'
 
 export default {
   name: 'Home',
   components: {
-    
+    Columns
   }
 }
 </script>

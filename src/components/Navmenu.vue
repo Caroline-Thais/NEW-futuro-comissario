@@ -1,10 +1,10 @@
 <template>
 
-    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         
-        <a class="navbar-start">
-            <img src="../assets/logo.png" >
+        <a>
+            <img src="../assets/logo.png">
         </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -37,10 +37,10 @@
         <div class="navbar-end">
         <div class="navbar-item">
             <div class="buttons">
-            <a class="button is-danger is-rounded">
+            <a class="button is-info">
                 <strong>Cadastre-se</strong>
             </a>
-            <a class="button is-danger is-rounded">
+            <a class="button is-info">
                 Log in
             </a>
             </div>
