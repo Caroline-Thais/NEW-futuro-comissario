@@ -2,12 +2,14 @@
     
   <section class="hero is-medium is-info">
     <div class="hero-body">
+      <router-link to="/questoes">
       <p class="title">
         Comece a estudar agora
       </p><br>
       <p class="subtitle">
-        <a>Simulado ANAC</a>
+        Simulado ANAC
       </p>
+      </router-link>
     </div>
   </section>
 

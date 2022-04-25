@@ -3,9 +3,9 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         
-        <a>
+        <router-link to="/">
             <img src="../assets/logo2.png">
-        </a>
+        </router-link>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -16,33 +16,32 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-        <a class="navbar-item">
+        <router-link to="/" class="navbar-item">
             Home
-        </a>
-
-        <a class="navbar-item">
+        </router-link>
+        <router-link to="/vagas" class="navbar-item">
             Vagas
-        </a>
+        </router-link>
 
-        <a class="navbar-item">
+        <router-link to="/questoes" class="navbar-item">
             Questões Anac
-        </a>
+        </router-link>
 
-        <a class="navbar-item">
-            Apostila
-        </a>
+        <router-link to="/ebook" class="navbar-item">
+            E-book
+        </router-link>
 
         </div>
 
         <div class="navbar-end">
         <div class="navbar-item">
             <div class="buttons">
-            <a class="button is-info">
+            <router-link to="/register" class="button is-info">
                 <strong>Cadastre-se</strong>
-            </a>
-            <a class="button is-info">
+            </router-link>
+            <router-link to="/login" class="button is-info">
                 Log in
-            </a>
+            </router-link>
             </div>
         </div>
         </div>

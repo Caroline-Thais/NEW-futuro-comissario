@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <p>Cadastro realizado com sucesso!</p>
+    <p>Aproveite e comece a estudar.</p>
   </div>
 </template>
+
+<script>
+//import FormCadastro from './components/FormCadastro.vue'
+
+export default{
+    
+    components:{
+        
+    }
+}
+</script>

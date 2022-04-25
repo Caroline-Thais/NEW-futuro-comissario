@@ -1,27 +1,21 @@
 <template>
   <div class="wrapper">
-    <Navmenu/>
-    <Hero/>
-    <Columns/>
-    <Footer/>
-  </div>
-  <router-view/>
+  <Navmenu class="navbar"/>
   
+ 
+ <router-view/>
+  </div>
 </template>
 
 <script>
-import Navmenu from './components/Navmenu'
-import Hero from './components/Hero'
-import Columns from './components/Columns'
-import Footer from './components/Footer.vue'
+import Navmenu from './components/Navmenu.vue'
+
 
 export default{
 name:'App',
+
 components:{
-  Navmenu,
-  Hero,
-  Columns,
-  Footer
+  Navmenu
 }
 }
 </script>
